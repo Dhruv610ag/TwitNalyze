@@ -1,20 +1,20 @@
-# 🐦 Twitter Sentiment Analysis
+# TwitNalyze
 
 This project is focused on analyzing the **sentiment of tweets** using **Natural Language Processing (NLP)** techniques. It applies machine learning algorithms to classify tweets into different sentiment categories based on their content.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
-- ✅ **Goal**: Predict the sentiment of a tweet (`Positive`, `Negative`, `Neutral`, etc.).
-- 🧠 **Feature Engineering**: `TF-IDF` vectorization with n-grams
-- 🔍 **Text Preprocessing**: Cleaning, stopword removal, optional stemming/lemmatization
-- 📊 **Evaluation**: Classification report including precision, recall, and F1-score
-- 📊 **Confusion Matrix**: Evaluating Confusion Matrix
+-  **Goal**: Predict the sentiment of a tweet (`Positive`, `Negative`, `Neutral`, etc.).
+-  **Feature Engineering**: `TF-IDF` vectorization with n-grams
+-  **Text Preprocessing**: Cleaning, stopword removal, optional stemming/lemmatization
+-  **Evaluation**: Classification report including precision, recall, and F1-score
+-  **Confusion Matrix**: Evaluating Confusion Matrix
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 The dataset contains tweet data with the following key columns:
 
@@ -23,7 +23,7 @@ The dataset contains tweet data with the following key columns:
 - `tweet`: The actual tweet text  
 - `sentiment`: Sentiment label (0, 1, 2, 3)
 
-### Sentiment Label Mapping:
+## Sentiment Label Mapping:
 
 | Label | Meaning    |
 |-------|------------|
@@ -34,7 +34,7 @@ The dataset contains tweet data with the following key columns:
 
 ---
 
-## 🧹 Text Preprocessing
+##  Text Preprocessing
 
 Performed:
 
@@ -46,7 +46,7 @@ Performed:
 
 ---
 
-## 🧪 Feature Extraction
+##  Feature Extraction
 
 - Using `TfidfVectorizer` with custom parameters:
 python
@@ -63,7 +63,7 @@ TfidfVectorizer(
 
 ---
 
-### 🤖 Model Training
+##  Model Training
 | Model Used               | Score (Accuracy) |
 |--------------------------|------------------|
 | Logistic Regression      | 0.8397           |
@@ -74,7 +74,7 @@ TfidfVectorizer(
 
 ---
 
-### 📦 Requirements
+## Requirements
 Python 3.7+
 Libraries:
 - scikit-learn
